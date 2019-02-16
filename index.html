@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./bxslider/css/style.css">
+    <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css">
+    
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>Gyro-Msk</title>
+  </head>
+<body>
+<div class="container_sidebar">
+    <ul class="container_sidebar-menu">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Доставка</a></li>
+      <li><a href="#">Оплата</a></li>
+      <li><a href="#">Оптовикам</a></li>
+      <li><a href="#">отзывы</a></li>
+      <li><a href="#">Контакты</a></li>
+      <li><a href="#">Гироскутеры</a></li>
+    </ul>
+</div>
+<header>
+    <div class="header_top-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-md-8 d-md-block d-none">
+            <ul>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Оплата</a></li>
+              <li><a href="#">Оптовикам</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 d-none d-lg-block social">
+            <div class="social-block">
+              <a href="#" class="vk"></a>
+              <a href="#" class="facebook"></a>
+              <a href="#" class="twitter"></a>
+              <a href="#" class="odn"></a>
+              <a href="#" class="insta"></a>
+              <a href="#" class="youtube"></a>
+            </div>
+          </div>
+
+          <!-- Mobile screen  -->
+          <div class="col-12 header-mobile d-sm-block d-md-none">
+            <div class="header-mobile-logo">
+              <img src="img/tube.png" alt="Tube">
+              <p>8 (800) 788-17-18</p>
+            </div>
+            <div class="mobile-search">
+              <img id="loupe" src="img/search.png" alt="Search">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header_midl">
+      <div class="form_mobile-search" id="mob_search" >
+         <form action="test.php">
+          <input type="text" name="search">
+          <input type="submit" name="search" value>
+        </form>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-5 logo">
+            <a href="#"><img src="img/logotipe.png" alt="Logo"></a>
+          </div>
+          <div class="col-lg-4 d-none d-md-block offset-xl-1 col_search">
+            <div class="search">
+              <form action="test.php">
+                  <select class="select_s">
+                    <option value="">Велосипеды</option>
+                    <option value="">Пункт меню</option>
+                    <option value="">Пункт меню</option>
+                  </select>
+                    <input type="text" name="search">
+                    <input type="submit" name="search" value />
+              </form> 
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 d-none d-md-block block-question">
+            <img src="./img/question.png" alt="Question">
+            <a href="#">
+              <p class="ask_question">
+                <span>задайте нам</span><br>
+                <span>свой вопрос</span>
+              </p>
+            </a>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3 d-none d-md-block call_action">
+              <img src="./img/telephone.png" alt="telephone">
+                <div class="wrap">
+                  <a href="#modalCallAction" rel="nofollow" class="openmodal">Заказать обратный звонок</a>
+                  <p class="number">8 (800) 788-17-18</p>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-menu">
+            <div class="main_menu d-none d-md-block">
+                <ul>
+                    <li><a href="#"><span>Гироскутеры</span></a></li>
+                    <li><a href="#"><span>Смарт-часы</span></a></li>
+                    <li><a href="#"><span>Велосипеды</span></a></li>
+                    <li><a href="#"><span>Спортивная одежда</span></a></li>
+                    <li class="menu-item-sales d-none d-lg-block"><a href="#"><span>Распродажа</span></a></li>
+                </ul>
+              </div>
+              <div class="col-12 mobile_menu d-block d-md-none">
+                <a href="#idcollapse" class="hamburger"></a>
+               </div>
+          </div>
+        </div>
+      </div>
+</header>
+<main>
+  <div class="container">
+    <div class="row">
+        <div class="slider col-lg-9 col-md-12 d-none d-md-block">
+          <div class="bxslider">
+            <div class="slide">
+              <img src="./img/slide1.png" alt="slide">
+                <div class="slide_text">
+                  <p class="slide_text-title">Diamondback Горный велосипед</p>
+                  <p class="slide_text-descr">Двухподвес профессионального уровня 2016 года!Легкая и прочная рама из алюминиевого сплава + имеются двойные алюминиевые обода.</p>
+                  <a href="#" class="slide_text-btn">Подробнее</a>
+                </div>
+                <div class="slide_price">15 990 <span>р</span></div>
+            </div>
+            <div class="slide">
+              <img src="./img/slide2.png" alt="slide">
+                <div class="slide_text">
+                  <p class="slide_text-title">Гироскутер Smart</p>
+                  <p class="slide_text-descr">На оптовые партии скидки</p>
+                  <a href="#" class="slide_text-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="slide">
+              <img src="./img/slide3.png" alt="slide">
+               <div class="slide_text">
+                  <p class="slide_text-title">Телефоны Xiaomi по выгодным ценам</p>
+                  <p class="slide_text-descr"></p>
+                  <a href="#" class="slide_text-btn">Подробнее</a>
+                </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-3 order-lg-0 col-md-5 order-md-2 right-side">
+            <div class="best-price">
+                <div class="best-price-title">
+                  <p>Лучшая цена</p>
+                </div>
+                  <img src="./img/gyro.png" alt="slide"/>
+                <div class="tovar-descr">
+                  <p>Sony SmartWatch 3 SWR50</p>
+                  <p>Смарт часы</p>
+                </div>
+                <div class="order-btn">
+                  <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                </div>
+                <div class="price">
+                  <p>24 899  <span> руб.</span></p>   
+                </div>
+            </div>
+      </div>
+      <div class="col-lg-9 order-lg-0 col-md-7 order-md-1 advantage">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-6">
+              <div class="item_advantage">
+                  <i class="img1"></i>
+                  <p class="adv_title"><span>Низкие цены</span></p>
+                  <p class="adv_desc d-none d-sm-block"><span>Цены ниже чем у конкурентов. Нашли дешевле? <br>Сделаем скидку</span></p>
+               </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6">
+              <div class="item_advantage">
+                    <i class="img2"></i>
+                    <p class="adv_title"><span>доставка</span></p>
+                    <p class="adv_desc d-none d-sm-block"><span>Огранизуем доставку<br> товара по РФ и Китаю</span></p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6"> 
+              <div class="item_advantage">
+                    <i class="img3"></i>
+                    <p class="adv_title"><span>большой выбор</span></p>
+                    <p class="adv_desc d-none d-sm-block"><span>Всегда Большой выбор товаров в наличии<br> и под заказ</span></p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6">
+              <div class="item_advantage">
+                    <i class="img4"></i>
+                    <p class="adv_title"><span>Гарантия</span></p>
+                    <p class="adv_desc d-none d-sm-block"><span>Даем гарантию 3 месяца на весь приобретенный<br> у нас товар</span></p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6">
+              <div class="item_advantage">
+                    <i class="img5"></i>
+                    <p class="adv_title"><span>Тест - Драйв</span></p>
+                  <p class="adv_desc d-none d-sm-block"><span>Бесплатный тест-драйв гироскутеров и велосипедов перед покупкой</span></p>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-6">
+              <div class="item_advantage">
+                    <i class="img6"></i>
+                    <p class="adv_title"><span>Возврат денег</span></p>
+                    <p class="adv_desc d-none d-sm-block"><span>Вернем деньги в течении 14 дней после покупки, если товар вас не устроил</span></p>
+              </div>
+          </div>
+        </div>
+     </div>
+     <div class="col-lg-3 d-none d-lg-block">
+          <div class="right_side-bike">
+              <img src="img/velo.png" alt="Velo">
+          </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-lg-12 col-md-12">
+          <div class="bottom_catalog_menu">
+              <div class="green-menu">
+                  <a href="" data-slide-index="0" data-rel="0" class="active"><span>Новинка</span></a>
+                  <a href="" data-slide-index="1" data-rel="1"><span>Популярное</span></a>
+                  <a href="" data-slide-index="2" data-rel="2"><span>Товары со скидкой</span></a>
+                </div>
+              <div class="bottom_catalog_nav ml-auto d-none d-sm-block">
+                  <span id="bx-prev"></span>
+                  <span id="bx-next"></span>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="row catalog_best_items justify-content-around">
+          <div class="category_slider">
+            <div class="row new_tovar">
+              <div class="col-lg-3 col-md-6 d-none d-md-block">
+                <div class="best_item">
+                    <a href="#"><img src="img/velo2.png" alt="Velo2"></a>
+                    <div class="best_item-description">
+                        <p class="best_item-description--title">Aspect Ideal 26 VBR (Черный)</p>
+                        <p class="best_item-description--desc">Горный велосипед</p>
+                    </div>
+                     <div class="best_item-bottom">
+                      <div class="best_item-order-btn">
+                        <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                      </div>
+                      <div class="best_item-bottom_price">
+                        <span class="price">22 799<span> руб.</span></span>
+                      </div>
+                    </div>
+                 </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="best_item">
+                  <div class="mark_action">-20%</div>
+                    <a href="#"><img src="img/yellow_gyro.png" alt="Gyroyellow"></a>
+                    <div class="best_item-description">
+                        <p class="best_item-description--title">Smart Balance K3 (желтый)</p>
+                        <p class="best_item-description--desc">Гироскутер</p>
+                    </div>
+                     <div class="best_item-bottom">
+                      <div class="best_item-order-btn">
+                        <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                      </div>
+                      <div class="best_item-bottom_price">
+                        <span class="old-price">22 400 <span> руб.</span></span>
+                        <span class="price">22 799<span> руб.</span></span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-4 d-none d-lg-block">
+                <div class="best_item">
+                  <div class="mark_new">Новинка!</div>
+                    <a href="#"><img src="img/red_gyro.png" alt="Gyro Red"></a>
+                    <div class="best_item-description">
+                        <p class="best_item-description--title">Smart Balance K3 (желтый)</p>
+                        <p class="best_item-description--desc">Гироскутер</p>
+                    </div>
+                    <div class="best_item-bottom">
+                      <div class="best_item-order-btn">
+                        <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                      </div>
+                      <div class="best_item-bottom_price">
+                        <span class="price">22 799 <span> руб.</span></span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block">
+                <div class="best_item">
+                    <a href="#"><img src="img/watch.png" alt="Watch"></a>
+                    <div class="best_item-description">
+                        <p class="best_item-description--title">Sony SmartWatch 3 SWR50</p>
+                        <p class="best_item-description--desc">Смарт-часы</p>
+                    </div>
+                     <div class="best_item-bottom">
+                      <div class="best_item-order-btn">
+                        <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                      </div>
+                      <div class="best_item-bottom_price">
+                        <span class="price">22 799<span> руб.</span></span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row popular_tovar">
+              <div class="col-lg-3 col-md-4 d-none d-lg-block">
+                <div class="best_item">
+                  <div class="mark_new">Новинка!</div>
+                    <a href="#"><img src="img/red_gyro.png" alt="Red Gyro"></a>
+                    <div class="best_item-description">
+                        <p class="best_item-description--title">Smart Balance K3 (желтый)</p>
+                        <p class="best_item-description--desc">Гироскутер</p>
+                    </div>
+                    <div class="best_item-bottom">
+                      <div class="best_item-order-btn">
+                        <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                      </div>
+                      <div class="best_item-bottom_price">
+                        <span class="price">22 799 <span>руб.</span></span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="best_item">
+                    <a href="#"><img src="img/velo2.png" alt="Velo 2"></a>
+                    <div class="best_item-description">
+                        <p class="best_item-description--title">Aspect Ideal 26 VBR (Черный)</p>
+                        <p class="best_item-description--desc">Горный велосипед</p>
+                    </div>
+                     <div class="best_item-bottom">
+                      <div class="best_item-order-btn">
+                        <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                      </div>
+                      <div class="best_item-bottom_price">
+                          <span class="price">22 799 <span>руб.</span></span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6 d-none d-md-block">
+                <div class="best_item">
+                  <div class="mark_action">-20%</div>
+                    <a href="#"><img src="img/yellow_gyro.png" alt="Yellow Gyro"></a>
+                    <div class="best_item-description">
+                        <p class="best_item-description--title">Smart Balance K3 (желтый)</p>
+                        <p class="best_item-description--desc">Гироскутер</p>
+                    </div>
+                     <div class="best_item-bottom">
+                      <div class="best_item-order-btn">
+                        <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                      </div>
+                      <div class="best_item-bottom_price">
+                        <span class="price">22 799 <span>руб.</span></span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row sales_tovar">
+              <div class="col-lg-3 col-md-6">
+                <div class="best_item">
+                  <div class="mark_action">-20%</div>
+                    <a href="#"><img src="img/yellow_gyro.png" alt="Yellow Gyro"></a>
+                    <div class="best_item-description">
+                        <p class="best_item-description--title">Smart Balance K3 (желтый)</p>
+                        <p class="best_item-description--desc">Гироскутер</p>
+                    </div>
+                     <div class="best_item-bottom">
+                      <div class="best_item-order-btn">
+                        <a href="#modalOrderProduct" class="openmodal">Заказать</a>
+                      </div>
+                      <div class="best_item-bottom_price">
+                        <span class="old-price">22 400 <span> руб.</span></span>
+                        <span class="price">22 799<span> руб.</span></span>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+              <div class="row main_description">
+              <div class="col-lg-8 col-md-12 text-area">
+                <h1>Товары для активного отдыха и занятий отдыха</h1>
+                <p class="main_descr-text">Наш интернет-магазин в Москве всегда имеет в наличии велотехнику мировых производителей: Merida, Stark, Stels, Trek и другие. На сайте GIRO-MSK.ru, вы найдете то, что ищете, - будь то женские или детские модели, прогулочные или спортивные, мужская техника и аксессуары. Также наш магазин может похвастаться отличным выбором маутинбайков и шоссейных велосипедов. Просто выберите нужный тип, а с остальным поможем мы. Специалисты Велосайта профессионально катаются сами и знают о веломире решительно все!<p>
+                <p>              
+                Популярность велосипедного катания последние годы в России неизменно растет. Спросом пользуются уже не только детские и профессиональные, но и фэтбайки, складные и горные модели для тех, кто готов к продвинутому уровню катания. При выборе велосипеда важно исходить из учета своих потребностей и принимать во внимание на технические характеристики. Так, если будете кататься только в городской черте, не покупайте громоздкие спортивные байки. А, если вы выбираете езду по пересеченной местности, присмотритесь к моделям с хорошей амортизацией и оборудованием.</p>
+              </div>
+              <div class="col-lg-4 d-none d-lg-block">
+                <a href="#"><img src="img/man.png" alt="Man"></a>
+              </div>
+            </div>
+      </div>
+</div>
+</main>
+<footer>
+  <div class="container">
+    <div class="row footer_area">
+          <div class="col-lg-2 help d-none d-lg-block help">
+            <p class="menu-head">Помощь</p>
+            <div class="menu-items">
+              <ul>
+                <li><a href="#">Заказ товара на сайте</a></li>
+                <li><a href="#">Доставка товара</a></li>
+                <li><a href="#">Как оплатить товар</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 info d-none d-lg-block info">
+            <p class="menu-head">Информация</p>
+            <div class="menu-items">
+              <ul>
+                <li><a href="#">Как выбрать велосипед</a></li>
+                <li><a href="#">Все о гироскутерах</a></li>
+                <li><a href="#">Акции</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 d-none d-sm-block about">
+            <p class="menu-head">О компании</p>
+            <div class="menu-items">
+              <ul>
+                <li><a href="#">Что такое GIRO-MSK?</a></li>
+                <li><a href="#">Реквзизиты</a></li>
+                <li><a href="#">Работа и вакансии</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-4 order-sm-1 order-3 footer_social">
+            <p class="menu-head">Мы в социальных сетях</p>
+               <div class="social-block">
+                <a href="#" class="vk"></a>
+                <a href="#" class="facebook"></a>
+                <a href="#" class="twitter"></a>
+                <a href="#" class="odn"></a>
+                <a href="#" class="insta"></a>
+                <a href="#" class="youtube"></a>
+               </div>          
+          </div>
+          <div class="col-lg-3 col-md-5 col-sm-4 order-sm-2 order-2 contacts">
+            <p class="menu-head">Контакты</p>
+            <ul>
+              <li><a href="#"><img src="img/mark.png" alt="Mark">г. Благовещенск ул. Амурская, д. 204, оф. 5</a></li>
+              <li><a href="#"><img src="img/tube2.png" alt="tube2">+7 (914) 560-66-10</a></li>
+              <li><a href="#"><img src="img/mail.png" alt="mail">shop@giro-msk.ru</a></li>
+            </ul>
+          </div> 
+    </div>
+     <div class="row developer_info">
+            <div class="col-lg-10 col-md-9 col-8">
+              <p>© 2010-2016  | <span>GIRO-MSK</span></p>
+              <span class="descr">Любое копирование информации не для нашего промо запрещены без письменного разрешения.</span>
+            </div>
+            <div class="col-lg-2 col-md-3 col-4 nopadding-r">
+              <div class="company">
+                <p>Сделано в <a href="#" class="sp_artgroup">Sp-Artgroup</a></p>
+                <span class="allright_resieve">Все права защищены</span>
+              </div>
+            </div>
+      </div>
+  </div>
+
+<div class="modalForm" id="modalCallAction">
+      <form action="test.php">
+        <div class="header">
+          <p class="header-text">Обратный звонок</p>
+          <a href="#" class="closeForm"></a>
+        </div>
+        <div class="main">
+          <p class="name">Ваше имя:</p>
+          <input type="text" placeholder="Ваше имя" />
+          <p class="telephone">Телефон:</p>
+          <input type="text" placeholder="+7 920 455 66 55" />
+        </div>
+        <div class="btnForm">
+          <a href="#" class="openmodal">Заказать</a>
+        </div>
+      </form>
+</div>
+<div class="modalForm" id="modalOrderProduct">
+      <form action="test.php">
+        <div class="header">
+          <p class="header-text">Заказать Товар</p>
+          <a href="#" class="closeForm"></a>
+        </div>
+        <div class="main">
+          <p class="name">Ваше имя:</p>
+          <input type="text" placeholder="Ваше имя" />
+          <p class="telephone">Телефон:</p>
+          <input type="text" placeholder="+7 920 455 66 55" />
+        </div>
+        <div class="btnForm">
+          <a href="#" class="openmodal">Заказать</a>
+        </div>
+      </form>
+</div>
+</footer> 
+</body>
+</html>
+<script src="js/fancybox/jquery.fancybox.js"></script>
+<script src="bxslider/js/jquery.fitvids.js"></script>
+<script src="bxslider/js/jquery.easing.1.3.js"></script>
+<script src="bxslider/js/jquery.bxslider.js"></script>
+<script src="script.js"></script>
+
